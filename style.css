@@ -1,0 +1,20 @@
+nav{
+    background-color: #424141;
+    height: 70px;
+}
+
+ul li{
+    margin-left: 40px; 
+    color: #fff;
+}
+
+li:hover{
+    color: lightsteelblue;
+}
+
+.bnr{
+    background-image: url(./images/background.png),linear-gradient(45deg,rgb(8, 8, 8),rgb(53, 53, 53));
+    height: 550px;
+}
+
+
