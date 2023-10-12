@@ -1,6 +1,12 @@
 .bnro{
     background-image: url(./images/background.png),linear-gradient(45deg,rgb(8, 8, 8),rgb(53, 53, 53));
-    height: 700px;
+    height: 730px;
+}
+
+.hro{
+  background-color: #191919; 
+  border: none;
+  height: 3px;  
 }
 
 .containers{
@@ -13,9 +19,9 @@
    width: 320px;
    height: 400px;
    box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.2),
-   inset -5px -5px 15px rgba(255, 255, 255, 0.1),
-          5px 5px 15px rgba(0, 0, 0, 0.3),
-         -5px -5px 15px rgba(255, 255, 255, 0.1);
+               inset -5px -5px 15px rgba(255, 255, 255, 0.1),
+                      5px 5px 15px rgba(0, 0, 0, 0.3),
+                     -5px -5px 15px rgba(255, 255, 255, 0.1);
    border-radius: 15px;
    margin: 30px;
 }
@@ -44,7 +50,7 @@
 }
 
 .containers .card .box:hover{
-     transform: translateY(-50px);
+     transform: translateY(-60px);
 }
 
 .footer {
@@ -64,7 +70,6 @@
     color: #fff;
   }
 
-  
   .wave {
     position: absolute;
     top: -100px;
@@ -114,7 +119,7 @@
       background-position-x: -1000px;
     }
   }
-  
+
 
 
 
