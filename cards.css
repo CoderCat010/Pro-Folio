@@ -50,21 +50,20 @@
 .footer {
     position: relative;
     background: #3586ff;
-    height: 400px;
-    /* display: flex;
-    flex-direction: column; */
-    margin-top: 100px;
+    height: 350px;
   }
   
   .link {
     font-size: 2rem;
-    color: #fff;
+    color: #191919;
     display: inline-block;
     transition: 0.5s;
   }
   .link:hover {
     transform: translateY(-10px);
+    color: #fff;
   }
+
   
   .wave {
     position: absolute;
